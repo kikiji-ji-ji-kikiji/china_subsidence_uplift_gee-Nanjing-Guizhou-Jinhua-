@@ -4,8 +4,6 @@ A Google Earth Engine (GEE) workflow that uses Sentinel-1 SAR backscatter trends
 
 Rather than full InSAR phase processing, this script fits a linear trend to SAR backscatter intensity over time per pixel, converts the slope into an annualized velocity proxy (mm/year), and compares raw vs. spatially-smoothed results.
 
-▶️ [Open the live script in Earth Engine](#) 
-
 ## Method
 
 | Category | Component | Description |
