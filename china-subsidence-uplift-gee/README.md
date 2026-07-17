@@ -61,7 +61,7 @@ README.md
 2. Run — it builds a 3-panel linked map (Nanjing / Jinhua / Guizhou) with raw and smoothed velocity layers, prints backscatter time-series charts per city, and prints a summary statistics table.
 3. Uncomment the `Export.image.toDrive` / `Export.table.toDrive` calls (already included) and run them from the **Tasks** tab to export the 6 raster velocity maps and the CSV summary table to Google Drive.
 
-## Notes / caveats
+## Notes 
 
 - This is a backscatter-intensity proxy, not phase-based InSAR displacement — useful for flagging relative hotspots of deformation, not absolute millimeter-accurate motion.
 - `Guizhou` is handled at province level (bounding box) since GAUL level-2 boundaries weren't used for it; `Nanjing` and `Jinhua` are city-level (GAUL level-2).
